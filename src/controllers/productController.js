@@ -1,4 +1,6 @@
-import Product from '../models/productModel.js';
+require('dotenv').config();
+
+const Product = require('@models/productModel');
 
 class ProductController {
     static async findProductById(id) {
@@ -23,3 +25,5 @@ class ProductController {
         return Product.getProductByGTIN(GTIN);
     }
 }
+
+module.exports = new ProductController();
