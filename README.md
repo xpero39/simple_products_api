@@ -7,7 +7,6 @@ Simple products API is a NodeJS and Express API that exposes products data
 - Add a new table for Products API
 - add Error handling for Products API
 #- Add a new table for Users API?
-- add jest
 - write tests
 - add Typescript
 
@@ -18,3 +17,4 @@ Simple products API is a NodeJS and Express API that exposes products data
 - Create a new Products Controller
 - Add new routes for Products
 - add project to Docker
+- added jest for testing
